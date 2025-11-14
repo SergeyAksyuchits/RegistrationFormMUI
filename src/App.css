@@ -1,0 +1,22 @@
+.App {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  align-items: center;
+  gap: 20px;
+  & header {
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    font-weight: 600;
+    color: blue;
+  }
+  & input {
+    width: 500px;
+  }
+  & a {
+    text-decoration: none;
+  }
+}
